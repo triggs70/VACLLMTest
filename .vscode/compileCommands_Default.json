@@ -1,0 +1,26 @@
+[
+	{
+		"file": "C:\\Users\\piggs\\OneDrive\\Documents\\Unreal Projects\\VACLabLLMTest\\Source\\VACLabLLMTest\\VACLabLLMTest.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\piggs\\OneDrive\\Documents\\Unreal Projects\\VACLabLLMTest\\.vscode\\compileCommands_Default\\VACLabLLMTest.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\piggs\\OneDrive\\Documents\\Unreal Projects\\VACLabLLMTest\\Source\\VACLabLLMTest\\VACLabLLMTest.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\piggs\\OneDrive\\Documents\\Unreal Projects\\VACLabLLMTest\\.vscode\\compileCommands_Default\\VACLabLLMTest.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\piggs\\OneDrive\\Documents\\Unreal Projects\\VACLabLLMTest\\Source\\VACLabLLMTest\\VACLabLLMTest.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\piggs\\OneDrive\\Documents\\Unreal Projects\\VACLabLLMTest\\.vscode\\compileCommands_Default\\VACLabLLMTest.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	}
+]

@@ -1,0 +1,15 @@
+# Unreal Engine build folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+
+# Visual Studio/VSCode files
+*.sln
+*.VC.db
+*.opendb
+
+# OS files
+.DS_Store
+Thumbs.db
