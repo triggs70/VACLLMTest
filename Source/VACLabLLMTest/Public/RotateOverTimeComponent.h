@@ -25,5 +25,6 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="VACLabLLMTest")
+	bool bPaused = false;
 	float DegreesPerSecond = 90.f;
 };

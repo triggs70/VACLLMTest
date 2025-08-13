@@ -28,6 +28,7 @@ void URotateOverTimeComponent::BeginPlay()
 void URotateOverTimeComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+	if (bPaused) {return;}
 
 	AActor* Owner = GetOwner();
 	if (Owner)
