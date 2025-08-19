@@ -65,3 +65,23 @@ This day marks the inception of the project. The repository was initialized with
     *   **Risks/Regression Areas**: None. This change is gated by the new `bPaused` property and preserves the original rotation behavior when `bPaused` is false.
 
 ---
+
+## Day 3
+
+### Summary of Changes
+
+Today's session focused on building a data visualization feature for NHL shot data. The implementation is partially complete and will be continued.
+
+*   **Data Analysis**: Analyzed the `SampleShotData/nhl-shots-sample.csv` file to understand its structure and identify key columns for visualization.
+*   **`Source/VACLabLLMTest/Public/ShotData.h`**: Created a new C++ header file to define the `FShotData` struct. This struct is used by Unreal Engine to understand the schema of the shot data.
+*   **`Content/nhl_shot_data.json`**: The source CSV data was processed and converted into a JSON file suitable for import into Unreal Engine.
+*   **`Content/nhl_shot_data.uasset`**: The generated JSON file was imported into the editor as a Data Table asset.
+*   **`Content/BP_ShotVisualizer.uasset`**: A new Blueprint Actor was created to contain the logic for reading the Data Table and spawning visual markers for each shot.
+*   **`Content/M_ShotMarker.uasset`**: A base material was created for the shot markers.
+*   **`Content/MI_Goal.uasset`, `Content/MI_Shot.uasset`, `Content/MI_Miss.uasset`**: Material Instances were created to represent the different shot outcomes with unique colors.
+
+### Current Status
+
+The project is in a partially implemented state. The core C++ struct and data assets have been successfully created. The `BP_ShotVisualizer` Blueprint has been scripted, but it is currently being debugged as the visualization is not yet appearing correctly when the level is run. The next session will resume with debugging the Blueprint's logic.
+
+---
